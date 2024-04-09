@@ -1,0 +1,139 @@
+body {
+    background-image: url(/images/background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.geometrica {
+    text-align: center;
+    margin-top: 150px;
+    padding: 50px;
+}
+
+.btn-circle:link,
+.btn-circle:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+}
+
+.btn-circle:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.btn-circle:active {
+ transform: translateY(-3px);
+}
+
+.btn-circle::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.btn-circle:hover::after {
+ background-color: rgb(20, 122, 0);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+
+.btn-square:link,
+.btn-square:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+}
+
+.btn-square:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.btn-square:active {
+ transform: translateY(-3px);
+}
+
+.btn-square::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.btn-square:hover::after {
+ background-color: rgb(255, 187, 1);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+
+.btn-triangle:link,
+.btn-triangle:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+}
+
+.btn-triangle:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.btn-triangle:active {
+ transform: translateY(-3px);
+}
+
+.btn-triangle::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.btn-triangle:hover::after {
+ background-color: rgb(163, 6, 6);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
