@@ -2,3 +2,54 @@ body {
     background-image: url(/images/background.jpg);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+nav {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.texto-quadrado {
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 24px;
+}
+
+.quadrado2 {
+    display: flex;
+}
+
+.square {
+    width: 257px;
+    margin-left: 345px;
+}
+
+.valor-aresta p {
+    margin-top: 40px;
+    margin-left: 48px;
+    font-size: 24px;
+}
+
+.valor-aresta .aresta {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 48px;
+    width: 80%;
+}
+
+.valor-aresta .submit {
+    
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 48px;
+    width: 87%;
+}

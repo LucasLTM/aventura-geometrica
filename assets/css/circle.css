@@ -9,7 +9,7 @@ nav {
 }
 
 nav a {
-    text-decoration-line: none;
+    text-decoration: none;
 }
 
 .circulo-raio {
@@ -18,8 +18,8 @@ nav a {
 
 .circle {
     width: 257px;
-    margin-top: 180px;
-    margin-left: 475px;
+    margin-top: 205px;
+    margin-left: 345px;
 }
 
 .valor-raio p {
@@ -28,11 +28,23 @@ nav a {
     font-size: 24px;
 }
 
-.valor-raio input {
+.valor-raio .raio {
+    display: flex;
     border-radius: 10px;
+    border: 1px solid #000;
     padding: 10px;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 48px;
+    width: 80%;
+}
 
+.valor-raio .submit {
+    
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 48px;
+    width: 87%;
 }
 
