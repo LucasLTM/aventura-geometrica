@@ -19,32 +19,14 @@ nav a {
 .circle {
     width: 257px;
     margin-top: 205px;
-    margin-left: 345px;
+    margin-left: 405px;
 }
 
-.valor-raio p {
-    margin-top: 250px;
+.texto-raio p {
+    margin-top: 315px;
     margin-left: 48px;
     font-size: 24px;
 }
 
-.valor-raio .raio {
-    display: flex;
-    border-radius: 10px;
-    border: 1px solid #000;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 48px;
-    width: 80%;
-}
 
-.valor-raio .submit {
-    
-    border-radius: 10px;
-    border: 1px solid #000;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 48px;
-    width: 87%;
-}
 

@@ -27,17 +27,9 @@
 
             </div>
 
-            <div class="valor-raio">
+            <div class="texto-raio">
 
-                <p>Qual o raio do circulo?</p>
-
-                <form>
-
-                    <input type="number" placeholder="Raio (r):" class="raio">
-
-                    <input type="submit" class="submit">
-
-                </form>
+                <p>Circulo</p>
 
             </div>
 
@@ -45,7 +37,15 @@
 
     </main>
 
-    <script></script>
+    <script>
+
+        raio = parseFloat(prompt("Qual o valor do raio do circulo? "));
+
+        resultado = Math.PI*(raio*raio);
+
+        alert("A area do circulo é: " + resultado);
+
+    </script>
 
 </body>
 
